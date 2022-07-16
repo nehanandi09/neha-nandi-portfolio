@@ -1,0 +1,41 @@
+#experience {
+  background-color: var(--black-color-1);
+  .head-text {
+    color: var(--white-color);
+  }
+}
+
+.app__experience {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__experience-timeline {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 2rem;
+}
+
+.app__experience-info {
+  line-height: 1.5;
+  .position-title {
+    color: var(--lavendar-color);
+    font-size: 1.45rem;
+    font-family: var(--font-heading);
+    font-weight: 400;
+  }
+
+  .company-title {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+  }
+
+  .app__experience-date {
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+}

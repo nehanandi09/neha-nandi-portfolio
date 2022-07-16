@@ -1,0 +1,119 @@
+#contact {
+  .h1 {
+    color: var(--lavendar-color);
+  }
+}
+
+.app__footer {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__footer-cards {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem 2rem 2rem;
+
+  .app__footer-card {
+    min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--black-color-1);
+
+    transition: all 0.3s ease-in-out;
+
+    .icon {
+      font-size: 40px;
+      color: var(--lavendar-color);
+      margin: 0 0.7rem;
+    }
+
+    p {
+      color: var(--white-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    &:hover {
+      background-color: var(--black-color-2);
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.app__footer-form {
+  width: 60%;
+  flex-direction: column;
+  margin: 1rem 2rem;
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div {
+    margin: 0.75rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.95rem;
+      border: none;
+      background-color: var(--field-color);
+
+      border-radius: 7px;
+      font-family: var(--font-base);
+      color: var(--black-color-2);
+      outline: none;
+    }
+
+    textarea {
+      height: 170px;
+    }
+
+    &:hover {
+      box-shadow: 0 0 15px #e1dada;
+    }
+  }
+
+  button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+    color: var(--white-color);
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: var(--font-base);
+  }
+
+  @media sreen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
