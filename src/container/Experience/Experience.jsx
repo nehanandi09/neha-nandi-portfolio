@@ -34,7 +34,15 @@ const Experience = () => {
                 <div className="app__experience-info">
                   <h3 className="position-title">{exp.position}</h3>
                   <h4 className="company-title">{exp.company}</h4>
+                  <h4 className="company-techStack">
+                    {" "}
+                    {exp.techStack ? "Tech Stack:" : ""}
+                  </h4>
+                  <span className="techstack">
+                    {exp.techStack ?? exp.techStack}
+                  </span>
                   <p>{exp.description}</p>
+
                   <span className="app__experience-date">{exp.year}</span>
                 </div>
               </VerticalTimelineElement>

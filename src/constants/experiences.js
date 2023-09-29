@@ -14,10 +14,13 @@ const experiences = [
       "Worked on an internal application for Apple Computers Inc.. Developed the frontend of the application using Vue, Vuex, Vue Router, Bootstrap and SCSS",
   },
   {
-    year: "June 2022 - Present",
-    position: "Frontend Developer",
-    company: "Superwomen DAO",
-    description: "Developing the website for Superwomen DAO",
+    year: "September 2022 - Present",
+    position: "Frontend Engineer",
+    company: "mambo EMM",
+    description:
+      "Worked on the frontend for mambo EMM application, an Android Management EMM. Was responsible for the UI/UX design and development of the app.",
+    techStack:
+      "Vue, Vuex, Typescript, Vue Router, Jest, Vuetify, Bootstrap, Sass/SCSS",
   },
 ];
 
