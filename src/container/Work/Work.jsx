@@ -71,7 +71,7 @@ const Work = () => {
 
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>
+              <div className="div-text" style={{ marginTop: 10 }}>
                 {work.description}
                 <div className="app__flex app__work-links">
                   <a
@@ -109,7 +109,7 @@ const Work = () => {
                     </motion.div>
                   </a>
                 </div>
-              </p>
+              </div>
               <div className="app__work-tag">
                 {work.tags.map((tag, index) => (
                   <p className="work-tag" key={`work-${tag}-${index}`}>
